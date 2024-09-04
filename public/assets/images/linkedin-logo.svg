@@ -1,0 +1,14 @@
+<svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Icon/linkedin-logo" clip-path="url(#clip0_422_8119)">
+<path id="Vector" d="M27.5 4.0415H5.5C4.94772 4.0415 4.5 4.48922 4.5 5.0415V27.0415C4.5 27.5938 4.94772 28.0415 5.5 28.0415H27.5C28.0523 28.0415 28.5 27.5938 28.5 27.0415V5.0415C28.5 4.48922 28.0523 4.0415 27.5 4.0415Z" stroke="#778092" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M15.5 14.0415V22.0415" stroke="#778092" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M11.5 14.0415V22.0415" stroke="#778092" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M15.5 17.5415C15.5 16.6132 15.8687 15.723 16.5251 15.0666C17.1815 14.4103 18.0717 14.0415 19 14.0415C19.9283 14.0415 20.8185 14.4103 21.4749 15.0666C22.1313 15.723 22.5 16.6132 22.5 17.5415V22.0415" stroke="#778092" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M11.5 12.0415C12.3284 12.0415 13 11.3699 13 10.5415C13 9.71308 12.3284 9.0415 11.5 9.0415C10.6716 9.0415 10 9.71308 10 10.5415C10 11.3699 10.6716 12.0415 11.5 12.0415Z" fill="#778092"/>
+</g>
+<defs>
+<clipPath id="clip0_422_8119">
+<rect width="32" height="32" fill="white" transform="translate(0.5 0.0415039)"/>
+</clipPath>
+</defs>
+</svg>
