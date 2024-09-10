@@ -24,13 +24,8 @@ if (process.env.NODE_ENV === "production") {
   });
 } else {
   app.get("/", (req, res) => {
-    console.log("dd")
     res.send("Server is Running! 🚀");
   });
 }
-app.get("/", (req, res) => {
-  console.log("dd")
-  res.send("Server is Running! 🚀");
-});
 
 module.exports = app;
