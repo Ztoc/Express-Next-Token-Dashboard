@@ -7,7 +7,6 @@ const router = require("./routes");
 
 const app = express();
 
-// config
 if (process.env.NODE_ENV !== "production") {
   require("dotenv").config({ path: "server/config/config.env" });
 }
@@ -15,18 +14,23 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(fileUpload());
-app.use(router);
 __dirname = path.resolve();
+app.use(router);
 if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname, "/frontend/build")));
-
+  
   app.get("*", (req, res) => {
     res.sendFile(path.resolve(__dirname, "frontend", "build", "index.html"));
   });
 } else {
   app.get("/", (req, res) => {
+    console.log("dd")
     res.send("Server is Running! 🚀");
   });
 }
+app.get("/", (req, res) => {
+  console.log("dd")
+  res.send("Server is Running! 🚀");
+});
 
 module.exports = app;
